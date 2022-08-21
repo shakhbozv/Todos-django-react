@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    border-bottom: 1px solid #c2c1c1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0;
+    transition: .3s;
+}
+
+.navbar-start {
+    width: 50%;
+}
+.navbar-end  {
+    width: 50%;
+    text-align: right;
+}
+
+.button {
+    outline: none;
+    border: none;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: .3s;
+}
+.button:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.is-info {
+    background: #0099ff;
+    color: white;
+}
+.is-info:hover {
+    color: black;
+}
+
+.is-danger {
+    background: crimson;
+    color: white;
+}
+
+.is-danger:hover {
+    color: black;
+}
+
+
+
+.container {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.box {
+    height: 80vh;
+    box-shadow: 1px 2px 7px 8px rgba(128, 128, 128, 0.34);
+    transition: .6s;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box:hover {
+    box-shadow: 1px 2px 10px 20px rgba(128, 128, 128, 0.34);
+}
+.form {
+    transition: .4s;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px 5px;
+    outline: none;
+    border: none;
+    background: rgba(194, 193, 193, 0.13);
+    border-radius: 10px;
+    color: #575555;
+}
+.button-fullwidth {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    background: #0099ff;
+    font-weight: 600;
+    color: white;
+    transition: .3s;
+}
+.button-fullwidth:hover{
+    opacity: .8;
+    color: black;
+}
+
+.todos {
+    width: 100%;
+    height: 90%;
+    overflow: auto;
+}
+
+.todo {
+    padding: 8px 5px;
+    transition: .3s;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.todo:hover{
+    background: rgba(194, 193, 193, 0.22);
+}
+
+.is-completed {
+        background: rgba(79, 255, 87, 0.15);
+    color: green;
+
+}
+
+.todo span {
+    font-weight: 300;
+}
+.icon {
+    cursor: pointer;
+}
+
+.no-todos {
+    font-weight: 100;
+    text-align: center;
+    margin: 25% auto;
+    color: lightgray;
+    align-items: center;
+}
+
+
+.is-active{
+    opacity: .6;
+}
+.is-active:hover {
+        cursor: not-allowed;
+}
+
+
